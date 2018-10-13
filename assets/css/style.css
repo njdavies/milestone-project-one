@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700');
+
+
+
+/*------------------------------------------Heading*/
+
+header {
+    background-color: #FF9999;
+}
+
+.logo {
+    background: url("../images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.heading {
+    font-family: "Lobster", cursive;
+    font-weight: 300;
+    font-size: 100px;
+    text-align: center;
+    padding: 50px;
+    color: #ff0000;
+}
+
+.nav {
+    padding-top: 10px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #ff0000;
+}
+
+.nav-link {
+  color: #DA4B53;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #DA4B53;
+}
+
+
+/*------------------------------------------Media Queries*/
+
+@media (min-width: 320px) {
+    .heading {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 5px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .heading {
+        font-size: 100px;
+        text-align: center;
+        margin-top: 0px;
+        padding: 50px;
+    }
+    .nav-link {
+        padding: .5rem 4rem;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .heading {
+        font-size: 65px;
+        text-align: center;
+        margin-top: 0px;
+        
+    }
+}
