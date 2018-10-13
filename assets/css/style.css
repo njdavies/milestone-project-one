@@ -45,6 +45,31 @@ header {
 }
 
 
+
+/*------------------------------------------Footer*/
+
+footer {
+    background-color: #FF9999;
+    
+}
+
+.footertext {
+    display: block;
+    text-align: center;
+    color: #DA4B53;
+    font-weight: 600;
+}
+
+.social-links li {
+    padding: 12px;
+}
+
+.social-links li a {
+    color: #ff0000;
+}
+
+
+
 /*------------------------------------------Media Queries*/
 
 @media (min-width: 320px) {
@@ -73,6 +98,5 @@ header {
         font-size: 65px;
         text-align: center;
         margin-top: 0px;
-        
     }
 }
