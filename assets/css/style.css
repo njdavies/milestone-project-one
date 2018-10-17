@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
+
+body {
+    background-color: #FF9999;
+}
 
 
 /*------------------------------------------Heading*/
-
-header {
-    background-color: #FF9999;
-}
 
 .logo {
     background: url("../images/logo.jpg");
@@ -27,6 +27,7 @@ header {
 
 .nav {
     padding-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nav-pills .nav-link.active,
@@ -45,12 +46,36 @@ header {
 }
 
 
+/*------------------------------------------Section*/
+
+.news-header {
+    font-family: 'Roboto', sans-serif;
+    color: #ff0000;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    background-color: #DA4B53;
+    width: 75%;
+}
+
 
 /*------------------------------------------Footer*/
 
+
 footer {
-    background-color: #FF9999;
-    
+    margin-top: 15px;
 }
 
 .footertext {
@@ -67,7 +92,6 @@ footer {
 .social-links li a {
     color: #ff0000;
 }
-
 
 
 /*------------------------------------------Media Queries*/
