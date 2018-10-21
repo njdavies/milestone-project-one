@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
 
+/*------------------------------------------Colors*/
+
 body {
     background-color: #FF9999;
 }
@@ -12,6 +14,10 @@ body {
     text-transform: uppercase;
 }
 
+.discography-padding {
+    padding-top: 10px;
+}
+
 .audio-padding {
     padding-bottom: 10px;
 }
@@ -19,6 +25,24 @@ body {
 .tour-padding {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.contact-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    padding-top: 10px;
+}
+
+hr {
+    background-color: #DA4B53;
+    width: 75%;
+}
+
+.btn {
+    margin-top: 10px;
 }
 
 
@@ -61,57 +85,8 @@ body {
     color: #DA4B53;
 }
 
-.audiotag {
-    color: #D81420;
-    font-weight: 500;
-    text-align: left;
-}
-
-.media, .tour {
-    font-family: 'Roboto', sans-serif;
-    color: #ff0000;
-    font-size: 25px;
-    text-align: center;
-}
-
-/*----------------------------------------Section*/
-
-.news-header {
-    font-family: 'Roboto', sans-serif;
-    color: #ff0000;
-}
-
-.center {
-    display: block;
-    margin: auto;
-    padding: 10px;
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-hr {
-    background-color: #DA4B53;
-    width: 75%;
-}
-
-.newstag, .tourtag {
-    color: #D81420;
-    font-weight: 500;
-}
-
-.imagetag {
-    color: #D81420;
-    font-weight: 500;
-    text-align: center;
-}
-
 
 /*------------------------------------------Footer*/
-
 
 footer {
     margin-top: 15px;
@@ -130,6 +105,86 @@ footer {
 
 .social-links li a {
     color: #ff0000;
+}
+
+
+/*----------------------------------------News Section*/
+
+.news-header {
+    font-family: 'Roboto', sans-serif;
+    color: #ff0000;
+}
+
+.newstag, .tourtag, .contact-tag  {
+    color: #D81420;
+    font-weight: 500;
+}
+
+
+/*----------------------------------------Discography Section*/
+
+.imagetag {
+    color: #D81420;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/*----------------------------------------Media Section*/
+
+.media {
+    font-family: 'Roboto', sans-serif;
+    color: #ff0000;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+
+.img-fluid {
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.audiotag {
+    color: #D81420;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+/*----------------------------------------Tour Section*/
+
+.tour { 
+    font-family: 'Roboto', sans-serif;
+    color: #ff0000;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*----------------------------------------Contact Section*/
+
+.center-form {
+    width: 70%;
+}
+
+.contact {
+    font-family: 'Roboto', sans-serif;
+    color: #ff0000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 

@@ -2,10 +2,11 @@
 <html>
     <head lang="en">
         <meta charset="utf-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" type="text/css" />
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>    
     <body>
         <header class="container">
@@ -18,16 +19,16 @@
             <div class="row">
                 <ul class="nav nav-pills">
                   <li class="nav-item">
-                      <a class="nav-link" href="index.html">News</a>
+                      <a class="nav-link hvr-grow" href="index.html">News</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="discography.html">Discography</a>
+                      <a class="nav-link hvr-grow" href="discography.html">Discography</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="media.html">Media</a>
+                      <a class="nav-link hvr-grow" href="media.html">Media</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="tour.html">Tour</a>
+                      <a class="nav-link hvr-grow" href="tour.html">Tour</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link active" href="contact.html">Contact</a>
@@ -35,15 +36,30 @@
                 </ul>
             </div>
         </header>
-        
+        <section class="container">
+            <div class="contact contact-padding">
+                <h4>The band is now taking bookings for weddings and Christimas parties</h4>
+                <h5 class="contact-tag">Please provide your contact information in the form below</h5>
+            </div>
+            <div class="row justify-content-center">
+                <div class="center-form text-center">
+                    <form>
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                        <textarea rows="5" name="queries" class="form-control" id="queries" placeholder="Any other queries here" required></textarea>
+                        <button type="submit" class="btn btn-primary hvr-grow">Send Request</button>
+                    </form>
+                </div>        
+            </div>
+        </section>
         <footer class="container">
             <div class="row footertext">
                 <br><hr>
                 <h5>Follow us on:</h5>
                 <ul class="list-inline social-links">
-                    <li class="list-inline-item"><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook fa-3x"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="https://twitter.com/themonkees?lang=en" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter fa-3x"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" data-toggle="tooltip" title="YouTube"><i class="fa fa-youtube fa-3x"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/" class="hvr-grow" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook fa-3x"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://twitter.com/themonkees?lang=en" class="hvr-grow" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter fa-3x"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" class="hvr-grow"  data-toggle="tooltip" title="YouTube"><i class="fa fa-youtube fa-3x"></i></a></li>
                 </ul>
             </div>
         </footer>
