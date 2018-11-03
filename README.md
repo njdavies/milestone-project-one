@@ -1,4 +1,4 @@
-# User Centric Frontend Development - https://njdavies.github.io/milestone-project-1/
+# User Centric Frontend Development
 
 I was given the following brief to construct a static website for a band:
 
