@@ -1,4 +1,4 @@
-# User Centric Frontend Development
+# User Centric Frontend Development - [Website Link](https://njdavies.github.io/milestone-project-one/)
 
 I was given the following brief to construct a static website for a band:
 
@@ -99,7 +99,7 @@ scheme, further enhancing the vibrant theme of the site.
 In order to rigorously test the functionality of the site I initially made use of the following automated tools:
 
 [W3C Markup Validation Service](https://validator.w3.org/) - I used this tool to validate the HTML used within the website. To do this
-I pasted the website URL (https://njdavies.github.io/milestone-project-1/) into the address field and hit Check. It will then advise you 
+I pasted the website URL (https://njdavies.github.io/milestone-project-one/) into the address field and hit Check. It will then advise you 
 of any errors within your code and make suggestions regarding how to keep this as correct as possible against the W3C standards.
 
 [W3C CSS Validation Service] (https://jigsaw.w3.org/css-validator/) - I used this tool to validate CSS used within the website. To do
